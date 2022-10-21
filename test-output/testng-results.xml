@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-21T18:41:53 EET" name="Default suite" finished-at="2022-10-21T18:42:18 EET" duration-ms="24901">
+    <groups>
+    </groups>
+    <test started-at="2022-10-21T18:41:53 EET" name="Regression test" finished-at="2022-10-21T18:42:18 EET" duration-ms="24901">
+      <class name="Amazon_Automation_Project.deleteItemFromCart">
+        <test-method signature="userDeleteItemFromCart()[pri:1, instance:Amazon_Automation_Project.deleteItemFromCart@77fbd92c]" started-at="2022-10-21T18:42:16 EET" name="userDeleteItemFromCart" finished-at="2022-10-21T18:42:18 EET" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDeleteItemFromCart -->
+      </class> <!-- Amazon_Automation_Project.deleteItemFromCart -->
+      <class name="Amazon_Automation_Project.searchForItem">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Amazon_Automation_Project.searchForItem@6adbc9d]" started-at="2022-10-21T18:41:42 EET" name="startDriver" finished-at="2022-10-21T18:41:53 EET" duration-ms="11036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userSearchForProduct()[pri:1, instance:Amazon_Automation_Project.searchForItem@6adbc9d]" started-at="2022-10-21T18:41:53 EET" name="userSearchForProduct" finished-at="2022-10-21T18:42:02 EET" duration-ms="9418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSearchForProduct -->
+        <test-method signature="userNarrowDownSearchResults()[pri:0, instance:Amazon_Automation_Project.searchForItem@6adbc9d]" started-at="2022-10-21T18:42:02 EET" name="userNarrowDownSearchResults" finished-at="2022-10-21T18:42:07 EET" depends-on-methods="Amazon_Automation_Project.searchForItem.userSearchForProduct" duration-ms="4545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNarrowDownSearchResults -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Amazon_Automation_Project.searchForItem@6adbc9d]" started-at="2022-10-21T18:42:18 EET" name="stopDriver" finished-at="2022-10-21T18:42:19 EET" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Amazon_Automation_Project.searchForItem -->
+      <class name="Amazon_Automation_Project.addItemToCart">
+        <test-method signature="userAddItemToCart()[pri:1, instance:Amazon_Automation_Project.addItemToCart@59662a0b]" started-at="2022-10-21T18:42:07 EET" name="userAddItemToCart" finished-at="2022-10-21T18:42:13 EET" duration-ms="5941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAddItemToCart -->
+        <test-method signature="userNavigateToCartPage()[pri:0, instance:Amazon_Automation_Project.addItemToCart@59662a0b]" started-at="2022-10-21T18:42:13 EET" name="userNavigateToCartPage" finished-at="2022-10-21T18:42:16 EET" depends-on-methods="Amazon_Automation_Project.addItemToCart.userAddItemToCart" duration-ms="3654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNavigateToCartPage -->
+      </class> <!-- Amazon_Automation_Project.addItemToCart -->
+    </test> <!-- Regression test -->
+  </suite> <!-- Default suite -->
+</testng-results>
